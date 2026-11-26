@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tori James Blake Joinery Studio | Luxury Joinery Design, Albany WA</title>
+<meta name="description" content="Bespoke kitchen and joinery design for luxury residences in Albany and the Great Southern, Western Australia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ee;--ink:#1f1d1a;--muted:#7a746b;--line:#d9d3c8;--accent:#8a7a62;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;font-weight:300;line-height:1.8;letter-spacing:.01em;}
+header{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:28px 6vw;background:rgba(246,243,238,.92);backdrop-filter:blur(6px);z-index:10;}
+.logo{font-family:'Cormorant Garamond',serif;font-size:1.15rem;letter-spacing:.18em;text-transform:uppercase;}
+nav a{color:var(--ink);text-decoration:none;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;margin-left:36px;}
+nav a:hover{color:var(--accent);}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 6vw;}
+.hero h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2.6rem,7vw,5.8rem);line-height:1.08;max-width:14ch;}
+.hero p{margin-top:36px;max-width:46ch;color:var(--muted);font-size:1.02rem;}
+.btn{display:inline-block;margin-top:48px;padding:16px 38px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;transition:.3s;width:fit-content;}
+.btn:hover{background:var(--ink);color:var(--bg);}
+section{padding:130px 6vw;border-top:1px solid var(--line);}
+.label{font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);margin-bottom:28px;}
+h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2rem,4vw,3.2rem);line-height:1.2;max-width:22ch;}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:8vw;}
+.about p{color:var(--muted);margin-bottom:22px;max-width:52ch;}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:70px;border:1px solid var(--line);}
+.tier{padding:48px 36px;border-right:1px solid var(--line);}
+.tier:last-child{border-right:none;}
+.tier h3{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:1.6rem;margin-bottom:10px;}
+.price{font-family:'Cormorant Garamond',serif;font-size:2.1rem;color:var(--accent);margin-bottom:26px;}
+.tier ul{list-style:none;}
+.tier li{padding:11px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem;}
+.note{margin-top:34px;color:var(--muted);font-size:.85rem;max-width:70ch;}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;margin-top:70px;}
+.step span{font-family:'Cormorant Garamond',serif;font-size:2.4rem;color:var(--accent);}
+.step h4{font-weight:400;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;margin:10px 0;}
+.step p{color:var(--muted);font-size:.92rem;}
+.contact{text-align:center;}
+.contact h2{margin:0 auto;}
+.contact p{color:var(--muted);margin-top:26px;}
+.contact a.mail{display:block;margin-top:40px;font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--ink);text-decoration:none;}
+footer{padding:40px 6vw;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);}
+@media(max-width:860px){.about,.tiers,.process{grid-template-columns:1fr;}.tier{border-right:none;border-bottom:1px solid var(--line);}nav a{margin-left:18px;}footer{flex-direction:column;gap:10px;}section{padding:90px 6vw;}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Tori James Blake</div>
+<nav><a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#contact">Enquire</a></nav>
+</header>
+
+<div class="hero">
+<h1>Joinery, considered to the millimetre.</h1>
+<p>Bespoke kitchen and cabinetry design for luxury residences across Albany and the Great Southern.</p>
+<a class="btn" href="#contact">Begin an enquiry</a>
+</div>
+
+<section id="about">
+<div class="label">The Studio</div>
+<div class="about">
+<h2>Design led by six years on the tools of luxury building.</h2>
+<div>
+<p>Tori James Blake Joinery Studio is a specialist design practice for high-end residential joinery. Every drawing is shaped by years spent resolving the details that matter on site: proportion, tolerance, hardware, and how a kitchen is actually built.</p>
+<p>With a Bachelor of Science in Interior Architecture from Curtin University and six years designing bespoke cabinetry for premium homes, Tori brings architectural rigour and a maker's practicality to every project.</p>
+<p>The result is joinery that is beautiful, buildable, and right the first time.</p>
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="label">Services</div>
+<h2>Three ways to work together.</h2>
+<div class="tiers">
+<div class="tier">
+<h3>Cabinetry Design</h3>
+<div class="price">$2,800</div>
+<ul>
+<li>On-site measure</li>
+<li>Full set of construction drawings</li>
+<li>Two rounds of revisions</li>
+<li>Additional site visits $200 each</li>
+</ul>
+</div>
+<div class="tier">
+<h3>Full Kitchen Design</h3>
+<div class="price">From $5,500</div>
+<ul>
+<li>Everything in Cabinetry Design</li>
+<li>Whole-room layout planning</li>
+<li>Appliance and finishes selection</li>
+<li>Coordination with builder and trades</li>
+</ul>
+</div>
+<div class="tier">
+<h3>Full Home Fit-Out</h3>
+<div class="price">Quoted individually</div>
+<ul>
+<li>Kitchen, laundry, wardrobes and vanities</li>
+<li>Built-ins and feature joinery</li>
+<li>One consistent design language</li>
+<li>Tailored to your project</li>
+</ul>
+</div>
+</div>
+<p class="note">All prices are in Australian dollars and exclude GST where applicable. Highly complex kitchens are quoted individually following an initial consultation.</p>
+</section>
+
+<section id="process">
+<div class="label">Process</div>
+<h2>A calm, precise approach.</h2>
+<div class="process">
+<div class="step"><span>01</span><h4>Consult</h4><p>We talk through your home, your lifestyle and your vision for the space.</p></div>
+<div class="step"><span>02</span><h4>Measure</h4><p>A detailed site measure so every dimension is exact.</p></div>
+<div class="step"><span>03</span><h4>Design</h4><p>Considered layouts and full construction drawings, refined with you.</p></div>
+<div class="step"><span>04</span><h4>Deliver</h4><p>A complete drawing set ready for your chosen cabinet maker to build.</p></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="label">Enquire</div>
+<h2>Let's design something exceptional.</h2>
+<p>Based in Albany, Western Australia, working across the Great Southern.</p>
+<a class="mail" href="mailto:your@email.com">your@email.com</a>
+<p>[Your phone number] &nbsp;·&nbsp; [@yourinstagram]</p>
+</section>
+
+<footer>
+<div>Tori James Blake Joinery Studio</div>
+<div>Albany, Western Australia</div>
+</footer>
+
+</body>
+</html>
